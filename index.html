@@ -1,0 +1,188 @@
+<!doctype html><html><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui"/><meta name="HandheldFriendly" content="true"/><meta name="apple-mobile-web-app-capable" content="yes"/><title>Intangible Cultural heritage</title><link rel="stylesheet" href="assets/css/qwc2.css"/><link rel="stylesheet" href="assets/css/colorschemes.css"/><link rel="apple-touch-icon" href="assets/img/app_icon.png"/><link rel="apple-touch-icon" sizes="72x72" href="assets/img/app_icon_72.png"/><link rel="apple-touch-icon" sizes="114x114" href="assets/img/app_icon_114.png"/><link rel="apple-touch-icon" sizes="144x144" href="assets/img/app_icon_144.png"/><link rel="icon" href="assets/img/favicon.ico"/><style>div#splash {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .lds-dual-ring {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+        }
+        .lds-dual-ring:after {
+            content: " ";
+            display: block;
+            width: 64px;
+            height: 64px;
+            margin: 8px;
+            border-radius: 50%;
+            border: 6px solid #595959;
+            border-color: #595959 transparent #595959 transparent;
+            animation: lds-dual-ring 1.2s linear infinite;
+        }
+        @keyframes lds-dual-ring {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }</style><script src="assets/searchProviders.js"></script><script>window.addEventListener("load", function(ev) {
+            document.getElementById('splash').style.display = 'none';
+        }, false);</script><style>form {
+        	width: 110px;
+		position:relative;
+		z-index:9999;
+	}
+	fieldset {
+        	padding: 10%;
+        	background-color: rgb(211,211,211);
+	}
+	label {
+        	display: inline;
+        	width: 95px;
+        	text-align: left;
+                color: rgb(0,0,0);
+	}
+	legend {
+        	display: block;
+		width: 90%;
+        	padding-left: 10%;
+        	background-color: white;
+        	color: black;
+	}</style><style>.dotgreen {
+		height: 10px;
+		width: 10px;
+		background-color: rgb(51,160,44);
+		border-radius: 50%;
+		display: inline-block;
+	}
+	.dotyellow {
+		height: 10px;
+		width: 10px;
+		background-color: rgb(246,247,72);
+		border-radius: 50%;
+		display: inline-block;
+	}
+	.dotorange {
+		height: 10px;
+		width: 10px;
+		background-color: rgb(255,127,0);
+		border-radius: 50%;
+		display: inline-block;
+	}
+	.dotred {
+		height: 10px;
+		width: 10px;
+		background-color: rgb(246,2,2);
+		border-radius: 50%;
+		display: inline-block;
+	}
+	.dotblue {
+		height: 10px;
+		width: 10px;
+		background-color: rgb(0,133,214);
+		border-radius: 50%;
+		display: inline-block;
+	}</style><style>.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('assets/css/search-black.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 15px;
+  padding: 10px 20px 10px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+z-index:9999;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 200px;
+max-width:200px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+max-height:300px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 6px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}</style><script defer="defer" src="dist/QWC2App.js?a0f2bd65c1c3ee87d559"></script></head><body><div id="splash"><div class="lds-dual-ring"></div></div><div id="container"></div><form><br/><br/><br/><br/><fieldset><label>Administrative levels</label><br/><br/><span class="dotgreen"></span> <label>Lebanon</label><br/><span class="dotyellow"></span> <label>Mohafaza</label><br/><span class="dotorange"></span> <label>Kada</label><br/><span class="dotred"></span> <label>Town</label><br/><br/><span class="dotblue"></span> <label>Sub levels</label></fieldset></form><div class="dropdown"><button onclick="myFunction()" class="dropbtn">Catalog</button><div id="myDropdown" class="dropdown-content"><input placeholder="Search.." id="myInput" onkeyup="filterFunction()"> <a href="javascript:ICH([3995661.21726,4018289.45537],'Al Dabkeh al lubananieh','0');">Al Dabkeh al lubananieh</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Al-Amathâl Al-Cha’biyah Wa Taqs ‘Ashor Al-San','0');">Al-Amathâl Al-Cha’biyah Wa Taqs ‘Ashor Al-San</a> <a href="javascript:ICH([3989577.33812,4087827.82962],'Al-Fatleh Al-Mawlawieh','3');">Al-Fatleh Al-Mawlawieh</a> <a href="javascript:ICH([3937281.14368,3970291.56794],'Al-Khat al arabî, Arabic calligraphy','3');">Al-Khat al 'arabî, Arabic calligraphy (Saida)</a> <a href="javascript:ICH([3919810.33444,3929352.71145],'Al-Khat al arabî, Arabic calligraphy','3');">Al-Khat al 'arabî, Arabic calligraphy (Sour)</a> <a href="javascript:ICH([3989577.33812,4087827.82962],'Al-Khat al arabî, Arabic calligraphy','3');">Al-Khat al 'arabî, Arabic calligraphy (Tripoli)</a> <a href="javascript:ICH([3997579.83043,4006531.0748],'Al-Khat al arabî, Arabic calligraphy','3');">Al-Khat al 'arabî, Arabic calligraphy (Zahleh)</a> <a href="javascript:ICH([3952252.95892,4013777.49606],'Al-Khat al arabî, Arabic calligraphy','1');">Al-Khat al 'arabî, Arabic calligraphy (Beirut)</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Al-Manoucheh','0');">Al-Manoucheh</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Al-Qaidah Al-Qamariah, Moon phases rule','0');">Al-Qaidah Al-Qamariah, Moon phases rule</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Al-Zajal, recited or sung poetry','0');">Al-Zajal, recited or sung poetry</a> <a href="javascript:ICH([4041625.49422,4080584.60196],'Ambriss, jar white cheese','2');">Ambriss, jar white cheese (Hermel)</a> <a href="javascript:ICH([3959173.84995,3982321.51509],'Ambriss, jar white cheese','2');">Ambriss, jar white cheese (Chouf)</a> <a href="javascript:ICH([4036758.28875,4042738.23559],'Ambriss, jar white cheese','2');">Ambriss, jar white cheese (Baalbek)</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Arak','0');">Arak</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Basket weaving tradition','0');">Basket weaving tradition</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Bawahir, traditional weather forecasting methods','0');">Bawahir, traditional weather forecasting methods</a> <a href="javascript:ICH([3973011.61455,4013694.27801],'Culture and harvest of pine culture','1');">Culture and harvest of pine culture</a> <a href="javascript:ICH([3971237.32108,3983625.67458],'Dabke Festival in Maasser El-Chouf','3');">Dabke Festival in Maasser El-Chouf</a> <a href="javascript:ICH([3919810.33444,3929352.71145],'Fishing boat construction','3');">Fishing boat construction (Sour)</a> <a href="javascript:ICH([3929678.03439,3955417.26424],'Fishing boat construction','3');">Fishing boat construction (Sarafand)</a> <a href="javascript:ICH([3978452.5473,4076328.89156],'Fishing boat construction','3');">Fishing boat construction (Anfeh)</a> <a href="javascript:ICH([3986666.36635,4089248.94619],'Fishing boat construction','3');">Fishing boat construction (Tripoli)</a> <a href="javascript:ICH([3937281.14368,3970291.56794],'Fishing boat construction','3');">Fishing boat construction (Saida)</a> <a href="javascript:ICH([3984141.33965,4058158.0558],'Fukhar Assia','3');">Fukhar Assia</a> <a href="javascript:ICH([3978408.50603,4003701.17624],'Hammana Cherry Festival','3');">Hammana Cherry Festival</a> <a href="javascript:ICH([3929678.03439,3955417.26424],'Hand blown glass','3');">Hand blown glass</a> <a href="javascript:ICH([4014164.21688,4063395.02502],'Hand wood carving','3');">Hand wood carving (Bcharreh)</a> <a href="javascript:ICH([3989577.33812,4087827.82962],'Hand wood carving','3');">Hand wood carving (Tripoli)</a> <a href="javascript:ICH([3937281.14368,3970291.56794],'Hand wood carving','3');">Hand wood carving (Saida)</a> <a href="javascript:ICH([3919810.33444,3929352.71145],'Hand wood carving','3');">Hand wood carving (Sour)</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Hand wood carving','0');">Hand wood carving (Lebanon)</a> <a href="javascript:ICH([4059779.61937,4048817.19373],'Hiyakat al Bost-Ersal','3');">Hiyakat al Bost-Ersal</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Hkeyeh, the traditional Lebanese storytelling','0');">Hkeyeh, the traditional Lebanese storytelling</a> <a href="javascript:ICH([3991320.24857,3981059.24966],'Horse Breading','1');">Horse Breading (Bekaa)</a> <a href="javascript:ICH([4028036.45402,4102706.26917],'Horse Breading','1');">Horse Breading (Akkar)</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Hummus','0');">Hummus</a> <a href="javascript:ICH([3961561.36474,3965537.1536],'Jezzine cutlery','3');">Jezzine's cutlery</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Kibbeh, a dish of Lebanese cuisine','0');">Kibbeh, a dish of Lebanese cuisine</a> <a href="javascript:ICH([3999972.40399,3993997.89561],'Kochari','3');">Kochari (Anjar)</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Kochari','0');">Kochari (Lebanon)</a> <a href="javascript:ICH([3956667.96534,4014505.72873],'Kochari','3');">Kochari (Bourj Hammoud)</a> <a href="javascript:ICH([3999972.40399,3993997.89561],'Kousan Chamber Choir, traditional Armenian singing','3');">Kousan Chamber Choir, traditional Armenian singing (Anjar)</a> <a href="javascript:ICH([3937281.14368,3970291.56794],'Kousan Chamber Choir, traditional Armenian singing','3');">Kousan Chamber Choir, traditional Armenian singing (Saida)</a> <a href="javascript:ICH([3969160.40313,4045541.26067],'Kousan Chamber Choir, traditional Armenian singing','3');">Kousan Chamber Choir, traditional Armenian singing (Byblos)</a> <a href="javascript:ICH([3997579.83043,4006531.0748],'Kousan Chamber Choir, traditional Armenian singing','3');">Kousan Chamber Choir, traditional Armenian singing (Zahleh)</a> <a href="javascript:ICH([3956667.96534,4014505.72873],'Kousan Chamber Choir, traditional Armenian singing','3');">Kousan Chamber Choir, traditional Armenian singing (Bourj Hammoud)</a> <a href="javascript:ICH([3952252.95892,4013777.49606],'Kousan Chamber Choir, traditional Armenian singing','1');">Kousan Chamber Choir, traditional Armenian singing (Beirut)</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Maamoul','0');">Maamoul</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Markouk','0');">Markouk</a> <a href="javascript:ICH([3964987.18267,4024661.54407],'Marsaben','3');">Marsaben</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Mawlid religious song or praise of the Prophet','0');">Mawlid religious song or praise of the Prophet</a> <a href="javascript:ICH([3978452.5473,4076328.89156],'Melâhât Anfeh','3');">Melâhât Anfeh</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Mûne','0');">Mûne</a> <a href="javascript:ICH([3989577.33812,4087827.82962],'Olive Oil Soap','3');">Olive Oil Soap (Tripoli)</a> <a href="javascript:ICH([3937281.14368,3970291.56794],'Olive Oil Soap','3');">Olive Oil Soap (Saida)</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Olive Oil Soap','0');">Olive Oil Soap (Lebanon)</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Olive tree culture','0');">Olive tree culture</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Proverbs about the sky','0');">Proverbs about the sky</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Proverbs on climate and seasons','0');">Proverbs on climate and seasons</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Proverbs on months and weather forecast','0');">Proverbs on months and weather forecast</a> <a href="javascript:ICH([4058590.52873,4073656.98306],'Rugs weaving','3');">Rugs weaving (Qaa)</a> <a href="javascript:ICH([4059779.61937,4048817.19373],'Rugs weaving','3');">Rugs weaving (Ersal)</a> <a href="javascript:ICH([4050573.25546,4062222.23826],'Rugs weaving','3');">Rugs weaving (Fekha)</a> <a href="javascript:ICH([4038477.54335,4112133.36919],'Rugs weaving','3');">Rugs weaving (Aidamoun)</a> <a href="javascript:ICH([3970466.47166,4063341.26104],'Sea mass in Batroun','3');">Sea mass in Batroun</a> <a href="javascript:ICH([4028036.45402,4102706.26917],'Shanklish or arisheh cheese','1');">Shanklish or arisheh cheese</a> <a href="javascript:ICH([3954840.86332,4006987.10669],'Shora, Khigga Yaqoora, Dimdimma and Ghawerrah','3');">Shora, Khigga Yaqoora, Dimdimma and Ghawerrah (Hadath)</a> <a href="javascript:ICH([3958451.82343,4013408.95478],'Shora, Khigga Yaqoora, Dimdimma and Ghawerrah','3');">Shora, Khigga Yaqoora, Dimdimma and Ghawerrah (Sed el-Baouchrieh)</a> <a href="javascript:ICH([3954269.65471,4013360.41136],'Shora, Khigga Yaqoora, Dimdimma and Ghawerrah','3');">Shora, Khigga Yaqoora, Dimdimma and Ghawerrah (Achrafieh)</a> <a href="javascript:ICH([3997579.83043,4006531.0748],'Shora, Khigga Yaqoora, Dimdimma and Ghawerrah','3');">Shora, Khigga Yaqoora, Dimdimma and Ghawerrah (Zahleh)</a> <a href="javascript:ICH([3970771.45407,4019435.63108],'Sina’et l-jras bi Beit Chabeb','3');">Sina’et l-jras bi Beit Chabeb</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Sliq','0');">Sliq</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Tabbouleh','0');">Tabbouleh</a> <a href="javascript:ICH([3952252.95892,4013777.49606],'Tarbush','1');">Tarbush (Beirut)</a> <a href="javascript:ICH([3937281.14368,3970291.56794],'Tarbush','3');">Tarbush (Saida)</a> <a href="javascript:ICH([3989577.33812,4087827.82962],'Tarbush','3');">Tarbush (Tripoli)</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Tlet Alousset, Three hoods','0');">Tlet Alousset, Three hoods</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Traditional games','0');">Traditional games</a> <a href="javascript:ICH([3995661.21726,4018289.45537],'Zaatar or thyme','0');">Zaatar or thyme</a> <a href="javascript:ICH([3986666.36635,4089248.94619],'Zambo Carnival','3');">Zambo Carnival</a></div></div><script>function myPan() {
+ window.qwc2.panTo([2683002, 1248093],'EPSG:2056');
+}
+
+function myZoom() {
+ window.qwc2.removeMarker(1);
+ window.qwc2.zoomToPoint([3986666.36635, 4089248.94619], 3, 'EPSG:3857');
+ window.qwc2.addMarker(1, [3986666.36635, 4089248.94619], 'Here', 'EPSG:3857', 9999)
+}
+
+function ICH_Ok(point1, label1, zoomLvl) {
+ window.qwc2.removeMarker(1);
+ window.qwc2.zoomToPoint(point1, zoomLvl, 'EPSG:3857');
+ window.qwc2.addMarker(1, point1, label1, 'EPSG:3857', 9999)
+}
+
+function ICH(point1, label1, zoomLvl) {
+ let X = point1[0];
+ let Y = point1[1] - 6000;
+ window.qwc2.removeMarker(1);
+ window.qwc2.zoomToPoint([X, Y], zoomLvl, 'EPSG:3857');
+ window.qwc2.addMarker(1, point1, label1, 'EPSG:3857', 9999)
+}
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}</script></body></html>

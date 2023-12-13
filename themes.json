@@ -1,0 +1,944 @@
+{
+  "themes": {
+    "title": "root",
+    "subdirs": [],
+    "items": [
+      {
+        "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=E:/Nada/Articles/Jojo/NRJ/QWC2/Maps_cr/PCI3.qgs",
+        "id": "PCI3.qgs",
+        "title": "Cultural heritage",
+        "description": "",
+        "attribution": {
+          "Title": "CREEMO",
+          "OnlineResource": "https://www.usj.edu.lb/universite/institutions.php?getinst=527&lang=2"
+        },
+        "abstract": "",
+        "keywords": "",
+        "onlineResource": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=E%3A%2FNada%2FArticles%2FJojo%2FNRJ%2FQWC2%2FMAPs_cr%2FPCI3.qgs",
+        "contact": {
+          "person": "",
+          "organization": "",
+          "position": "",
+          "phone": "",
+          "email": ""
+        },
+        "availableFormats": [
+          "image/jpeg",
+          "image/png",
+          "image/png; mode=16bit",
+          "image/png; mode=8bit",
+          "image/png; mode=1bit",
+          "application/dxf"
+        ],
+        "version": "1.3.0",
+        "infoFormats": [
+          "text/plain",
+          "text/html",
+          "text/xml",
+          "application/vnd.ogc.gml",
+          "application/vnd.ogc.gml/3.1.1",
+          "application/json",
+          "application/geo+json"
+        ],
+        "bbox": {
+          "crs": "EPSG:4326",
+          "bounds": [
+            27.788368,
+            31.452014,
+            43.580538,
+            36.610743
+          ]
+        },
+        "initialBbox": {
+          "crs": "EPSG:4326",
+          "bounds": [
+            27.788368,
+            31.452014,
+            43.580538,
+            36.610743
+          ]
+        },
+        "scales": [
+          2500000,
+          1500000,
+          750000,
+          400000,
+          300000,
+          200000,
+          100000,
+          50000
+        ],
+        "printScales": [
+          80000,
+          40000,
+          20000,
+          10000,
+          8000,
+          6000,
+          4000,
+          2000,
+          1000,
+          500,
+          250,
+          100
+        ],
+        "printResolutions": [
+          150,
+          300,
+          600
+        ],
+        "sublayers": [
+          {
+            "name": "Lbn_admbnda_L4",
+            "title": "Lbn_admbnda_L4",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": false,
+            "opacity": 255,
+            "minScale": 1,
+            "maxScale": 400001,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.103487,
+                33.054996,
+                36.622916,
+                34.69207
+              ]
+            },
+            "dimensions": []
+          },
+          {
+            "name": "Towns",
+            "title": "Towns",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": true,
+            "displayField": "admin3Name",
+            "opacity": 255,
+            "minScale": 1,
+            "maxScale": 400001,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.190284,
+                33.220696,
+                36.622916,
+                34.629004
+              ]
+            },
+            "dimensions": []
+          },
+          {
+            "name": "Lbn_admbnda_L3",
+            "title": "Lbn_admbnda_L3",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": false,
+            "opacity": 255,
+            "minScale": 400001,
+            "maxScale": 750001,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.103487,
+                33.054996,
+                36.622916,
+                34.69207
+              ]
+            },
+            "dimensions": []
+          },
+          {
+            "name": "Discrit (Kada)",
+            "title": "Discrit (Kada)",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": true,
+            "displayField": "Name",
+            "opacity": 255,
+            "minScale": 400001,
+            "maxScale": 750001,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.385821,
+                33.49165,
+                36.622916,
+                34.522821
+              ]
+            },
+            "dimensions": []
+          },
+          {
+            "name": "Lbn_admbnda_L2",
+            "title": "Lbn_admbnda_L2",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": false,
+            "opacity": 255,
+            "minScale": 750001,
+            "maxScale": 1500000,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.103487,
+                33.054996,
+                36.622916,
+                34.69207
+              ]
+            },
+            "dimensions": []
+          },
+          {
+            "name": "Governorate (Mohafaza)",
+            "title": "Governorate (Mohafaza)",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": true,
+            "displayField": "Name",
+            "opacity": 255,
+            "minScale": 750001,
+            "maxScale": 1500000,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.385821,
+                33.345444,
+                36.464919,
+                34.69207
+              ]
+            },
+            "dimensions": []
+          },
+          {
+            "name": "Lbn_admbnda_L1",
+            "title": "Lbn_admbnda_L1",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": false,
+            "opacity": 255,
+            "minScale": 1500000,
+            "maxScale": 2500000,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.103487,
+                33.054996,
+                36.622916,
+                34.69207
+              ]
+            },
+            "dimensions": []
+          },
+          {
+            "name": "Lebanon",
+            "title": "Lebanon",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": true,
+            "displayField": "Name",
+            "opacity": 255,
+            "minScale": 1500000,
+            "maxScale": 2500000,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.103487,
+                33.054996,
+                36.622916,
+                34.69207
+              ]
+            },
+            "dimensions": []
+          }
+        ],
+        "expanded": true,
+        "externalLayers": [],
+        "backgroundLayers": [
+          {
+            "name": "EsriTopo",
+            "visibility": true
+          },
+          {
+            "name": "mapnik"
+          }
+        ],
+        "searchProviders": [
+          "coordinates",
+          "geoadmin",
+          "nominatim"
+        ],
+        "additionalMouseCrs": [
+          "EPSG:4326"
+        ],
+        "mapCrs": "EPSG:3857",
+        "drawingOrder": [
+          "Lebanon",
+          "Lbn_admbnda_L1",
+          "Governorate (Mohafaza)",
+          "Lbn_admbnda_L2",
+          "Discrit (Kada)",
+          "Lbn_admbnda_L3",
+          "Towns",
+          "Lbn_admbnda_L4"
+        ],
+        "legendUrl": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=E%3A%2FNada%2FArticles%2FJojo%2FNRJ%2FQWC2%2FMAPs_cr%2FPCI3.qgs&?",
+        "featureInfoUrl": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=E%3A%2FNada%2FArticles%2FJojo%2FNRJ%2FQWC2%2FMAPs_cr%2FPCI3.qgs&?",
+        "printUrl": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=E%3A%2FNada%2FArticles%2FJojo%2FNRJ%2FQWC2%2FMAPs_cr%2FPCI3.qgs&?",
+        "editConfig": null,
+        "thumbnail": "img/genmapthumbs/PCI3.qgs.png"
+      },
+      {
+        "url": "https://qgiscloud.com/nadas/ICH_cr/wms?",
+        "id": "wms?",
+        "title": "Intangible Cultural heritage",
+        "description": "",
+        "attribution": {
+          "Title": "CREEMO",
+          "OnlineResource": "https://www.usj.edu.lb/universite/institutions.php?getinst=527&lang=2"
+        },
+        "abstract": "",
+        "keywords": "",
+        "onlineResource": "https://wms.prod.qgiscloud.com/nadas/ICH_cr",
+        "contact": {
+          "person": "",
+          "organization": "",
+          "position": "",
+          "phone": "",
+          "email": ""
+        },
+        "availableFormats": [
+          "image/jpeg",
+          "image/png",
+          "image/png; mode=16bit",
+          "image/png; mode=8bit",
+          "image/png; mode=1bit",
+          "application/dxf"
+        ],
+        "version": "1.3.0",
+        "infoFormats": [
+          "text/plain",
+          "text/html",
+          "text/xml",
+          "application/vnd.ogc.gml",
+          "application/vnd.ogc.gml/3.1.1",
+          "application/json",
+          "application/geo+json"
+        ],
+        "bbox": {
+          "crs": "EPSG:4326",
+          "bounds": [
+            27.788368,
+            31.452014,
+            43.580538,
+            36.610743
+          ]
+        },
+        "initialBbox": {
+          "crs": "EPSG:4326",
+          "bounds": [
+            27.788368,
+            31.452014,
+            43.580538,
+            36.610743
+          ]
+        },
+        "scales": [
+          2500000,
+          1500000,
+          750000,
+          400000,
+          300000,
+          200000,
+          100000,
+          50000
+        ],
+        "printScales": [
+          80000,
+          40000,
+          20000,
+          10000,
+          8000,
+          6000,
+          4000,
+          2000,
+          1000,
+          500,
+          250,
+          100
+        ],
+        "printResolutions": [
+          150,
+          300,
+          600
+        ],
+        "sublayers": [
+          {
+            "name": "Lbn_admbnda_L4",
+            "title": "Lbn_admbnda_L4",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": false,
+            "opacity": 255,
+            "minScale": 1,
+            "maxScale": 400001,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.103487,
+                33.054996,
+                36.622916,
+                34.69207
+              ]
+            },
+            "dimensions": []
+          },
+          {
+            "name": "Town",
+            "title": "Town",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": true,
+            "displayField": "Name",
+            "opacity": 255,
+            "minScale": 1,
+            "maxScale": 400001,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.190284,
+                33.220696,
+                36.622916,
+                34.629004
+              ]
+            },
+            "dimensions": []
+          },
+          {
+            "name": "Lbn_admbnda_L3",
+            "title": "Lbn_admbnda_L3",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": false,
+            "opacity": 255,
+            "minScale": 400001,
+            "maxScale": 750001,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.103487,
+                33.054996,
+                36.622916,
+                34.69207
+              ]
+            },
+            "dimensions": []
+          },
+          {
+            "name": "Discrit (Kada)",
+            "title": "Discrit (Kada)",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": true,
+            "displayField": "Name",
+            "opacity": 255,
+            "minScale": 400001,
+            "maxScale": 750001,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.385821,
+                33.49165,
+                36.622916,
+                34.522821
+              ]
+            },
+            "dimensions": []
+          },
+          {
+            "name": "Lbn_admbnda_L2",
+            "title": "Lbn_admbnda_L2",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": false,
+            "opacity": 255,
+            "minScale": 750001,
+            "maxScale": 1500000,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.103487,
+                33.054996,
+                36.622916,
+                34.69207
+              ]
+            },
+            "dimensions": []
+          },
+          {
+            "name": "Governorate (Mohafaza)",
+            "title": "Governorate (Mohafaza)",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": true,
+            "displayField": "Name",
+            "opacity": 255,
+            "minScale": 750001,
+            "maxScale": 1500000,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.385821,
+                33.345444,
+                36.464919,
+                34.69207
+              ]
+            },
+            "dimensions": []
+          },
+          {
+            "name": "Lbn_admbnda_L1",
+            "title": "Lbn_admbnda_L1",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": false,
+            "opacity": 255,
+            "minScale": 1500000,
+            "maxScale": 2500000,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.103487,
+                33.054996,
+                36.622916,
+                34.69207
+              ]
+            },
+            "dimensions": []
+          },
+          {
+            "name": "Lebanon",
+            "title": "Lebanon",
+            "geometryType": "MultiPolygon",
+            "visibility": true,
+            "queryable": true,
+            "displayField": "Name",
+            "opacity": 255,
+            "minScale": 1500000,
+            "maxScale": 2500000,
+            "bbox": {
+              "crs": "EPSG:4326",
+              "bounds": [
+                35.103487,
+                33.054996,
+                36.622916,
+                34.69207
+              ]
+            },
+            "dimensions": []
+          }
+        ],
+        "expanded": true,
+        "externalLayers": [],
+        "backgroundLayers": [
+          {
+            "name": "EsriTopo",
+            "visibility": true
+          },
+          {
+            "name": "mapnik"
+          }
+        ],
+        "searchProviders": [
+          "coordinates",
+          "nominatim"
+        ],
+        "additionalMouseCrs": [
+          "EPSG:4326"
+        ],
+        "mapCrs": "EPSG:3857",
+        "drawingOrder": [
+          "Lebanon",
+          "Lbn_admbnda_L1",
+          "Governorate (Mohafaza)",
+          "Lbn_admbnda_L2",
+          "Discrit (Kada)",
+          "Lbn_admbnda_L3",
+          "Town",
+          "Lbn_admbnda_L4"
+        ],
+        "legendUrl": "https://wms.prod.qgiscloud.com/nadas/ICH_cr?",
+        "featureInfoUrl": "https://wms.prod.qgiscloud.com/nadas/ICH_cr?",
+        "printUrl": "https://wms.prod.qgiscloud.com/nadas/ICH_cr?",
+        "editConfig": null,
+        "thumbnail": "img/genmapthumbs/wms.png"
+      }
+    ],
+    "defaultTheme": "wms?",
+    "defaultMapCrs": "EPSG:3857",
+    "defaultScales": [
+      4000000,
+      2000000,
+      1000000,
+      400000,
+      200000,
+      80000,
+      40000,
+      20000,
+      10000,
+      8000,
+      6000,
+      4000,
+      2000,
+      1000,
+      500,
+      250,
+      100
+    ],
+    "defaultPrintGrid": [
+      {
+        "s": 10000,
+        "x": 1000,
+        "y": 1000
+      },
+      {
+        "s": 1000,
+        "x": 100,
+        "y": 100
+      },
+      {
+        "s": 100,
+        "x": 10,
+        "y": 10
+      }
+    ],
+    "defaultBackgroundLayers": [],
+    "externalLayers": [
+      {
+        "name": "bauzonen",
+        "type": "wms",
+        "tiled": true,
+        "url": "https://wms.geo.admin.ch",
+        "params": {
+          "LAYERS": "ch.are.bauzonen"
+        },
+        "infoFormats": [
+          "text/plain"
+        ]
+      }
+    ],
+    "themeInfoLinks": [
+      {
+        "name": "example_link",
+        "title": "Example link",
+        "url": "https://example.com",
+        "target": "mydialogname"
+      },
+      {
+        "name": "example_link2",
+        "title": "Example link 2",
+        "url": "https://example.com/",
+        "target": "_blank"
+      }
+    ],
+    "backgroundLayers": [
+      {
+        "name": "mapnik",
+        "title": "Open Street Map",
+        "type": "osm",
+        "source": "osm",
+        "thumbnail": "img/mapthumbs/mapnik.jpg",
+        "attribution": {
+          "Title": "OpenStreetMap contributors",
+          "OnlineResource": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      {
+        "name": "Night2012",
+        "title": "NASAGIBS Night 2012",
+        "type": "tileprovider",
+        "source": "nasagibs",
+        "provider": "NASAGIBS.ViirsEarthAtNight2012",
+        "thumbnail": "img/mapthumbs/Night2012.jpg",
+        "attribution": {
+          "Title": "Suomi NPP / VIIRS via NASA Earth Observatory"
+        }
+      },
+      {
+        "name": "EsriTopo",
+        "title": "Esri word topo",
+        "group": "Esri",
+        "type": "tileprovider",
+        "source": "Esri",
+        "provider": "Esri.WorldTopoMap",
+        "thumbnail": "img/mapthumbs/EsriWordTopo.jpg",
+        "attribution": {
+          "Title": "Sources: Esri, HERE, Garmin, Intermap, increment P Corp., GEBCO, USGS, FAO, NPS, NRCAN, GeoBase, IGN, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), (c) OpenStreetMap contributors, and the GIS User Community"
+        }
+      },
+      {
+        "name": "StamenWatercolor",
+        "title": "Stamen Watercolor/OSM",
+        "group": "stamen",
+        "type": "tileprovider",
+        "source": "stamen",
+        "provider": "Stamen.Watercolor",
+        "attribution": {},
+        "thumbnail": "img/mapthumbs/default.jpg"
+      },
+      {
+        "name": "StamenTerrain",
+        "title": "Stamen Terrain/OSM",
+        "group": "stamen",
+        "type": "tileprovider",
+        "source": "stamen",
+        "provider": "Stamen.Terrain",
+        "attribution": {},
+        "thumbnail": "img/mapthumbs/default.jpg"
+      },
+      {
+        "name": "StamenToner",
+        "title": "Stamen Toner/OSM",
+        "group": "stamen",
+        "type": "tileprovider",
+        "source": "stamen",
+        "provider": "Stamen.Toner",
+        "attribution": {},
+        "thumbnail": "img/mapthumbs/default.jpg"
+      },
+      {
+        "name": "group",
+        "title": "Group",
+        "type": "group",
+        "items": [
+          {
+            "ref": "Gemeindegrenzen",
+            "minScale": 10000,
+            "maxScale": 300000
+          },
+          {
+            "ref": "oevhaltestellen"
+          }
+        ],
+        "attribution": {},
+        "thumbnail": "img/mapthumbs/default.jpg"
+      },
+      {
+        "name": "Gemeindegrenzen",
+        "title": "Gemeindegrenzen",
+        "type": "wms",
+        "url": "http://wms.geo.admin.ch/",
+        "tiled": false,
+        "params": {
+          "LAYERS": "ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill",
+          "STYLES": "default"
+        },
+        "attribution": {},
+        "thumbnail": "img/mapthumbs/default.jpg"
+      },
+      {
+        "name": "oevhaltestellen",
+        "title": "Haltestellen öV",
+        "type": "wms",
+        "url": "http://wms.geo.admin.ch/",
+        "tiled": true,
+        "params": {
+          "LAYERS": "ch.bav.haltestellen-oev",
+          "STYLES": "default"
+        },
+        "attribution": {},
+        "thumbnail": "img/mapthumbs/default.jpg"
+      },
+      {
+        "type": "wmts",
+        "url": "http://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpeg",
+        "title": "Blue Marble",
+        "name": "bluemarble",
+        "tileMatrixPrefix": "",
+        "tileMatrixSet": "GoogleMapsCompatible_Level8",
+        "originX": -20037508.34278925,
+        "originY": 20037508.34278925,
+        "projection:": "EPSG:3857",
+        "resolutions": [
+          156543.03390625,
+          78271.516953125,
+          39135.7584765625,
+          19567.87923828125,
+          9783.939619140625,
+          4891.9698095703125,
+          2445.9849047851562,
+          1222.9924523925781
+        ],
+        "tileSize": [
+          256,
+          256
+        ],
+        "thumbnail": "img/mapthumbs/default.jpg",
+        "attribution": {}
+      },
+      {
+        "type": "wms",
+        "url": "https://maps.omniscale.net/v2/swl-33d96aa8/style.default/map",
+        "title": "osm",
+        "name": "osm",
+        "srs": "EPSG:25832",
+        "params": {
+          "LAYERS": "osm",
+          "STYLES": "",
+          "VERSION": "1.1.1"
+        },
+        "thumbnail": "img/mapthumbs/default.jpg",
+        "attribution": {}
+      },
+      {
+        "type": "tileprovider",
+        "provider": "OpenTopoMap",
+        "title": "OpenTopoMap",
+        "name": "opentopomap",
+        "thumbnail": "img/mapthumbs/default.jpg",
+        "attribution": {
+          "Title": "Map data: &copy; <a href=\"https://openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, SRTM | Map style: &copy; <a href=\"https://opentopomap.org\" target=\"_blank\">OpenTopoMap</a> (<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\">CC-BY-SA</a>)"
+        }
+      },
+      {
+        "type": "wmts",
+        "url": "https://wxs.ign.fr/pratique/geoportail/wmts",
+        "title": "IGN",
+        "name": "GEOGRAPHICALGRIDSYSTEMS.MAPS",
+        "format": "image/jpeg",
+        "style": "normal",
+        "originX": -20037508,
+        "originY": 20037508,
+        "projection": "EPSG:3857",
+        "resolutions": [
+          156543.03392804097,
+          78271.51696402048,
+          39135.75848201024,
+          19567.87924100512,
+          9783.93962050256,
+          4891.96981025128,
+          2445.98490512564,
+          1222.99245256282,
+          611.49622628141,
+          305.748113140705,
+          152.8740565703525,
+          76.43702828517625,
+          38.21851414258813,
+          19.109257071294063,
+          9.554628535647032,
+          4.777314267823516,
+          2.388657133911758,
+          1.194328566955879
+        ],
+        "tileSize": [
+          256,
+          256
+        ],
+        "requestEncoding": "KVP",
+        "tileMatrixSet": "PM",
+        "tileMatrixPrefix": "",
+        "thumbnail": "img/mapthumbs/ign.png",
+        "attribution": {
+          "Title": "<a href=\"http://www.geoportail.fr/\" target=\"_blank\"><img src=\"https://api.ign.fr/geoportail/api/js/latest/theme/geoportal/img/logo_gp.gif\"></a>"
+        }
+      },
+      {
+        "type": "group",
+        "title": "Karte farbig",
+        "name": "pixelkarte",
+        "items": [
+          {
+            "ref": "av_grundbuchplan-color",
+            "minScale": 0,
+            "maxScale": 2000
+          },
+          {
+            "ref": "swisstopo.pixelkarte-farbe",
+            "minScale": 2001
+          }
+        ],
+        "thumbnail": "img/mapthumbs/default.jpg",
+        "attribution": {}
+      },
+      {
+        "type": "wmts",
+        "url": "https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/2056/{TileMatrix}/{TileCol}/{TileRow}.jpeg",
+        "title": "swisstopo.pixelkarte-farbe",
+        "name": "swisstopo.pixelkarte-farbe",
+        "tileMatrixPrefix": "",
+        "tileMatrixSet": "2056_26",
+        "originX": 2420000,
+        "originY": 1350000,
+        "projection:": "EPSG:2056",
+        "resolutions": [
+          4000,
+          3750,
+          3500,
+          3250,
+          3000,
+          2750,
+          2500,
+          2250,
+          2000,
+          1750,
+          1500,
+          1250,
+          1000,
+          750,
+          650,
+          500,
+          250,
+          100,
+          50,
+          20,
+          10,
+          5,
+          2.5,
+          2,
+          1.5,
+          1,
+          0.5,
+          0.25
+        ],
+        "tileSize": [
+          256,
+          256
+        ],
+        "attribution": {
+          "Title": {
+            "Title": "Hintergrundkarte &copy; <a href=\"https://www.swisstopo.ch\" target=\"_blank\">swisstopo</a>"
+          }
+        },
+        "thumbnail": "img/mapthumbs/default.jpg"
+      },
+      {
+        "type": "wms",
+        "name": "av_grundbuchplan-color",
+        "title": "av_grundbuchplan-color",
+        "url": "https://iap-map.gl.ch/ows/mainmap",
+        "params": {
+          "LAYERS": "ch.gl.cadastre.av_grundbuchplan-color",
+          "STYLES": "default"
+        },
+        "attribution": {},
+        "thumbnail": "img/mapthumbs/default.jpg"
+      },
+      {
+        "name": "luftbild_zh_2015",
+        "title": "Luftbild ZH 2015",
+        "type": "wms",
+        "url": "http://localhost/qgis/qgis_mapserv.fcgi",
+        "params": {
+          "LAYERS": "Orthofoto_2015_stdzh_0.5_jpeg",
+          "STYLES": "default",
+          "VERSION": "1.3.0",
+          "MAP": "/home/sandro/wms/luftbild_zh.qgs"
+        },
+        "attribution": {},
+        "thumbnail": "img/mapthumbs/default.jpg"
+      }
+    ],
+    "defaultWMSVersion": "1.3.0"
+  }
+}
